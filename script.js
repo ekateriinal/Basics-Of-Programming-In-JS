@@ -51,3 +51,12 @@ for(i = 0; i < myNumbers.length; i++) {
     }
 };
 
+// My first algorithm
+function myAlgorithm(a,b) {
+    let x = 1;
+    while(x >= b) {
+        a *=a
+        x++}
+            return a
+}
+
