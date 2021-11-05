@@ -38,3 +38,16 @@ do {
     a++;
 } while(a <= b );
 
+// My first JS array
+
+let myNumbers = [1,2,3,4,5,6,7,8,9,10];//Created an array
+myNumbers.pop(); //Removed last element
+myNumbers.push(15); // Added element to the end 
+myNumbers[1] = 3; //Changed value of second element
+//Changed the value of every third child to one
+for(i = 0; i < myNumbers.length; i++) {
+    if (i % 3 == 0) {
+        myNumbers[i] = 1;
+    }
+};
+
