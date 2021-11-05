@@ -1,11 +1,15 @@
 //Using loops (`for` or `while`), write a function, printing numbers from a to b, divisible by c.
 function numbersInLoops(a, b, c){
-    
-    //TODO write your code
-    
+    for (let i = a; i <= b; i++) {
+        if (i % c === 0) {   
+            return i
+        } 
+    }
 }
+
 //calling:
-//numbersInLoops(10, 20, 3);
+numbersInLoops(10, 20, 3); //prints 12
+
 
 //Write a function with will output a multiplication table with size of a given argument.
 function multiplicationTable(n){
